@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=ubuntu&display=swap');
+*{
+    box-sizing:border-box
+}
+body{
+    font-family: 'ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background: url('F5C14414-B1CE-4CE5-B3E8-A616F24F6D92.JPG')
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(162vh + 60px);
+    z-index: -1;
+    filter: blur(30px);
+}
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
